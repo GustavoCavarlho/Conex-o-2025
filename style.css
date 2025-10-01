@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @import url(https://fonts.googleapis.com/css?family=Oswald);
 
 :root{
@@ -40,13 +42,24 @@
   h1 {
     font-size: 2.5rem;
   }
-  
+
+
   main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
+  }
+
+  .trap{
+    padding: 100px;
+  }
+
+  .trap .box{
+    max-width: 1500px;
+    box-shadow: #e9dede;
+    color: #000;
   }
   
   .game-card {
@@ -74,7 +87,7 @@
   
   p {
     font-size: 1rem;
-    color: #555;
+    color: #000000;
   }
 
   .btn {
@@ -91,3 +104,34 @@
   .btn:hover {
     background-color: #555;
   }
+
+
+
+
+  header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #007bff;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.junimo-link{
+    display: block;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.junimo{
+    height: 40px;
+}
+

@@ -1,49 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stardew Valley</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Reenie+Beanie&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stardew Valley</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./favicon-32x32 (2).png">
+</head>
 
-    <main>
-    
-      <a href="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki" class="junimo">
-        <img src="imagens/Green_Sleeping_Junimo.png" alt="junimo" class="junimo">
-      </a>
-      <section class="game-card">
-        <h2>Personagens</h2>
-        <p>Saiba mais sobre os personagens</p>
-        <a href="personagens.html" class="btn">Personagens</a>
-      </section>
+<body>
 
-      <section class="game-card">
+  <main>
+    <a href="https://pt.stardewvalleywiki.com/Stardew_Valley_Wiki" class="junimo">
+      <img src="./android-chrome-192x192.png" alt="maça verde" class="junimo">
+    </a>
 
-        <h2>Animais</h2>
-        <p>Saiba um pouco mais sobre os animais</p>
-        <a href="aimais.html" class="btn">Animais</a>
-      </section>
+    <section class="trap">
+      <div class="box">
+        <p> Valley é um RPG sem fim da vida no campo! Você herdou a antiga fazenda de seu avô no Vale do
+          Orvalho.
+          Equipado com ferramentas de segunda mão e algumas moedas, você irá começar sua nova vida.
+          Será que você consegue aprender a viver da terra e transformar esses campos absurdamente vegetados em uma casa
+          próspera? Não vai ser fácil.
+          Desde que Corporação Joja veio à cidade, os antigos modos de vida quase desapareceram.
+          O Centro Comunitário, uma vez o lugar mais visitado da cidade, agora está em ruínas.
+          Mas o vale parece cheio de oportunidades.
+          Com um pouco de dedicação, você pode ser a pessoa que restaurará a grandeza do Vale do Orvalho!
+        </p>
+      </div>
+    </section>
 
-      <section class="game-card">
-        <h2>Itens</h2>
-        <p>alguns Itens</p>
-        <a href="#" class="btn">Saiba Mais</a>
-      </section>
+    <section class="game-card">
+      <img src="" alt="" class="game-image">
+      <h2>Personagens</h2>
+      <p>Saiba mais sobre os personagens</p>
+      <a href="personagens.html" class="btn">Personagens</a>
+    </section>
 
-    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-    <script>
-      new window.VLibras.Widget('https://vlibras.gov.br/app');
-    </script>
+    <section class="game-card">
+      <img src="https://via.placeholder.com/300x200" alt="Imagem do Jogo 1" class="game-image">
+      <h2>Animais</h2>
+      <p>Saiba um pouco mais sobre os animais</p>
+      <a href="aimais.html" class="btn">Animais</a>
+    </section>
 
-    <footer>
-    </footer>
-    
-  </body>
+    <section class="game-card">
+      <img src="https://via.placeholder.com/300x200" alt="Imagem do Jogo 1" class="game-image">
+      <h2>Itens</h2>
+      <p>Saiba um pouco dos itens</p>
+      <a href="itens.html" class="btn">Itens</a>
+    </section>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="java.js"></script>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  <footer>
+  </footer>
+
+</body>
 
 </html>
