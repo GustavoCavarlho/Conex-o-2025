@@ -54,12 +54,19 @@
 
   .trap{
     padding: 100px;
+    background-color: rgba(0, 255, 255, 0.26);
+    align-items: center;
   }
 
   .trap .box{
     max-width: 1500px;
     box-shadow: #e9dede;
     color: #000;
+  }
+
+  .texto {
+    font-family: sans-serif;
+    font-size: 50;
   }
   
   .game-card {
